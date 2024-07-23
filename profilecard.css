@@ -158,3 +158,9 @@
 .card:hover .card-inside{
     transform: rotateY(180deg);
 }
+
+@media(max-width:400px){
+    .card{
+        padding:30px,20px;
+    }
+}
